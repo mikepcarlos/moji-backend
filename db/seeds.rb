@@ -5,6 +5,7 @@ shocked = Emoji.create(title: "Shocked", emotion: "Shocked")
 
 user_1 = User.create(username: "Mikey")
 user_2 = User.create(username: "Zohra")
+user_3 = User.create(username: "Chris")
 
 jazzy_card = Card.create(title: "Jazzy", emoji_ids: [2, 3], user: user_1)
 pop_card = Card.create(title: "Pop", emoji_ids: [1, 4], user: user_2)
